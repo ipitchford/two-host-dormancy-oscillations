@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "optimized": 1,
+  "controls": [
+    {
+      "control": "corrupted Hopf constant coefficient",
+      "rejected": true,
+      "exit_code": 1,
+      "failure": "AssertionError: check failed: list(reversed([int(v) for v in P.all_coeffs()]))==recovered"
+    },
+    {
+      "control": "altered infection balance",
+      "rejected": true,
+      "exit_code": 1,
+      "failure": "AssertionError: check failed: all(s.cancel(v)==0 for v in field(X,p))"
+    },
+    {
+      "control": "inverted interval endpoints",
+      "rejected": true,
+      "exit_code": 1,
+      "failure": "AssertionError: check failed: lo<=hi"
+    }
+  ]
+}

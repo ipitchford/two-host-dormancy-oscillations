@@ -1,0 +1,10 @@
+{
+  "title": "Exact counterexamples and stable oscillations in a two-host dormancy model",
+  "description": "Written-proof candidate with exact symbolic and outward-rounded interval certificates. An all-competition-parameter counterexample family refutes the specified deterministic equilibrium convergence conjecture; a separate local supercritical Hopf bifurcation yields stable positive periodic solutions. No global periodic attractor is claimed.",
+  "creators": [{"name": "Anonymous"}],
+  "version": "1.0.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "license": "cc-zero",
+  "doi": "10.5281/zenodo.23448514"
+}

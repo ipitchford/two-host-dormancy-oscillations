@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-18T07:40:56.159648+00:00",
+  "working_directory": "/Users/admin/Documents/Codex/dormancy-counts-publication-20261018.K99v6y/candidates/two-host-dormancy-oscillations",
+  "versions": {
+    "python": "3.14.7",
+    "node": "v25.2.1",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "environment": {
+    "PYTHONPATH": ""
+  },
+  "input_sha256": {
+    "all_c_hurwitz.js": "476c4fed5983f45bcf216daca665bbc9b589de8cd432224a34c8665b2d3063d2",
+    "certify_hopf.py": "10c8458de327eff78bd237bfb22153109c161d5ce85a5c4497b481b0bc1b8025",
+    "check_support.py": "8516ccee58c2a0c36150c8ba1c0c38a1f50cf48092b2e3807dc6c0ffbf6d2bcf",
+    "exact_counterexample.js": "76acb19d8d40f92b3263e7552f8c8105e1d025e74c5017fb46c92c961c424be5",
+    "hopf_polynomial.js": "68344f6ad877d2a06c0c99c4038f62b8518972f8fe01561351733f107c05736a",
+    "hopf_polynomial_coefficients.json": "753855e0d87cafd0cfe3d186943d080e181523443a9701b7f3ef8268114fd78e",
+    "interval_arithmetic.py": "43405ff5172d1657a7061385b2a68adfc67890c90b22b7695e42e64f59f3bf89",
+    "model.py": "a58309198c06a6a2276271eb1dc9bc94a0c17bfceded94e3101bec3670fb1a42",
+    "negative_controls.py": "430b2f4cf77e55c234db975ffc9397b2415b1061bcb7547240a43a4fac54c342",
+    "q_coefficients_samples.js": "496f57a0f5d6fd724f9fbe0ecadfd394176711f17475a71286b95ef62185789b",
+    "run_checks.py": "e3790e22b290f9350f5e961cc253003a5abbd2d8081deefccab5c253eb09e862",
+    "verify_symbolic.py": "d9eedd54143affeba0a687f13ff76423dcedf7ed9d386829a868b2636d56d9c3"
+  },
+  "checks": [
+    {
+      "script": "exact_counterexample.js",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/Users/admin/Documents/Codex/dormancy-counts-publication-20261018.K99v6y/candidates/two-host-dormancy-oscillations/exact_counterexample.js"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.07763345795683563,
+      "status": "passed",
+      "stdout": "exact_counterexample.stdout.txt",
+      "stderr": "exact_counterexample.stderr.txt"
+    },
+    {
+      "script": "all_c_hurwitz.js",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/Users/admin/Documents/Codex/dormancy-counts-publication-20261018.K99v6y/candidates/two-host-dormancy-oscillations/all_c_hurwitz.js"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.06072470801882446,
+      "status": "passed",
+      "stdout": "all_c_hurwitz.stdout.txt",
+      "stderr": "all_c_hurwitz.stderr.txt"
+    },
+    {
+      "script": "hopf_polynomial.js",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/Users/admin/Documents/Codex/dormancy-counts-publication-20261018.K99v6y/candidates/two-host-dormancy-oscillations/hopf_polynomial.js"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.06355091603472829,
+      "status": "passed",
+      "stdout": "hopf_polynomial.stdout.txt",
+      "stderr": "hopf_polynomial.stderr.txt"
+    },
+    {
+      "script": "q_coefficients_samples.js",
+      "command": [
+        "/opt/homebrew/bin/node",
+        "/Users/admin/Documents/Codex/dormancy-counts-publication-20261018.K99v6y/candidates/two-host-dormancy-oscillations/q_coefficients_samples.js"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.09585245815105736,
+      "status": "passed",
+      "stdout": "q_coefficients_samples.stdout.txt",
+      "stderr": "q_coefficients_samples.stderr.txt"
+    },
+    {
+      "script": "interval_arithmetic.py",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-B",
+        "-O",
+        "/Users/admin/Documents/Codex/dormancy-counts-publication-20261018.K99v6y/candidates/two-host-dormancy-oscillations/interval_arithmetic.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.03680875012651086,
+      "status": "passed",
+      "stdout": "interval_arithmetic.stdout.txt",
+      "stderr": "interval_arithmetic.stderr.txt"
+    },
+    {
+      "script": "verify_symbolic.py",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-B",
+        "-O",
+        "/Users/admin/Documents/Codex/dormancy-counts-publication-20261018.K99v6y/candidates/two-host-dormancy-oscillations/verify_symbolic.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.1147556668147445,
+      "status": "passed",
+      "stdout": "verify_symbolic.stdout.txt",
+      "stderr": "verify_symbolic.stderr.txt"
+    },
+    {
+      "script": "certify_hopf.py",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-B",
+        "-O",
+        "/Users/admin/Documents/Codex/dormancy-counts-publication-20261018.K99v6y/candidates/two-host-dormancy-oscillations/certify_hopf.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.04661491699516773,
+      "status": "passed",
+      "stdout": "certify_hopf.stdout.txt",
+      "stderr": "certify_hopf.stderr.txt"
+    }
+  ],
+  "elapsed_seconds": 7.500752208987251,
+  "completed_utc": "2026-10-18T07:41:03.690291+00:00",
+  "counts": {
+    "programs_passed": 7,
+    "exact_C_interpolation_points": 7,
+    "all_C_Hurwitz_signs": "++++--",
+    "q_sample_points": 13,
+    "Hopf_polynomial_degree": 17,
+    "exact_rational_arithmetic_tests": 99,
+    "interval_decimal_grid_digits": 60
+  },
+  "output_sha256": {
+    "family_symbolic_certificate.json": "6ab6a80edf161ea84d4bd5431c72768e912f07f04022f50175d1aa35af53a50b",
+    "hopf_symbolic_certificate.json": "0135e3c20a33e401d8c2179603f3897c9e53847a227925c9285d79f0ea817f44",
+    "hopf_interval_certificate.json": "2a367efc11a29978a75db9eba49f2d91b19f4cca419e62b585bede041ca5cf46"
+  }
+}

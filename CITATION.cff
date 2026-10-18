@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: Please cite the manuscript and versioned evidence archive.
+title: Exact counterexamples and stable oscillations in a two-host dormancy model
+authors:
+  - name: Anonymous
+version: 1.0.0
+date-released: 2026-10-18
+doi: 10.5281/zenodo.23448514
+url: https://github.com/ipitchford/two-host-dormancy-oscillations
+license: CC0-1.0

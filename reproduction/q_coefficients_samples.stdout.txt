@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "q_values": [
+    "97/100",
+    "971/1000",
+    "243/250",
+    "973/1000",
+    "487/500",
+    "39/40",
+    "122/125",
+    "977/1000",
+    "489/500",
+    "979/1000",
+    "49/50",
+    "981/1000",
+    "491/500"
+  ],
+  "scope": "Exact branch residuals and all six characteristic coefficients at thirteen rational q values."
+}

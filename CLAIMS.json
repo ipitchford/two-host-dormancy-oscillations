@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "creator": "Anonymous",
+  "claims": [
+    {"id": "D1", "statement": "For every C >= 1/2 in the specified admissible family the unique positive equilibrium has exactly two right-half-plane eigenvalues, while both resident equilibria are resident-stable and mutually invasible.", "evidence": ["manuscript.md", "family_symbolic_certificate.json", "all_c_hurwitz.js"]},
+    {"id": "D2", "statement": "For the specified family almost every strictly positive initial condition does not converge to an equilibrium.", "evidence": ["manuscript.md"], "qualification": "Does not classify limit sets or prove global periodic attraction."},
+    {"id": "D3", "statement": "Varying q at C=1/2 produces a certified local supercritical Hopf bifurcation near 0.97691614864474158 with stable positive periodic solutions on the specified side.", "evidence": ["manuscript.md", "hopf_symbolic_certificate.json", "hopf_interval_certificate.json"], "qualification": "No explicit radius; no certified periodic orbit at q=0.98."}
+  ]
+}

@@ -1,0 +1,1 @@
+The original scientific prose and project data are offered under CC0-1.0. Original executable code is MIT licensed. This dedication does not cover referenced third-party publications or external software dependencies. See LICENSES.md.

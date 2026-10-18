@@ -1,0 +1,4 @@
+Local replay: Python 3.14.7; Node v25.2.1; SymPy 1.14.0; mpmath 1.3.0.
+Supported entrypoint targets Python >=3.10 and Node >=18; the exact tested environment is above.
+Dependencies are pinned in requirements.txt. JavaScript uses built-in BigInt arithmetic.
+Python children run with -B and inherit -O/-OO from their parent.

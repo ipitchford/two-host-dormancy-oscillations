@@ -1,0 +1,9 @@
+all-C family and resident certificates: PASS
+{
+  "status": "PASS",
+  "family": "all C >= 1/2",
+  "q_branch": "rational-function identity",
+  "Hopf_P_degree": 17,
+  "quadratic_factor": "exact modulo P",
+  "runtime_seconds": 6.301272625103593
+}
